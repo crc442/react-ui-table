@@ -1,0 +1,32 @@
+{
+  "name": "react-ui-table",
+  "version": "0.0.1",
+  "description": "minimal react table ui",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crc442/react-ui-table.git"
+  },
+  "keywords": [
+    "react",
+    "table",
+    "bootstrap"
+  ],
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  },
+  "author": "Chirag Chauhan <crc442@nyu.edu>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/crc442/react-ui-table/issues"
+  },
+  "homepage": "https://github.com/crc442/react-ui-table#readme",
+  "devDependencies": {
+    "react-fatigue-dev": "github:tj/react-fatigue-dev"
+  }
+}
